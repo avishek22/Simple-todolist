@@ -2,7 +2,7 @@ const express=require('express');
 const bodyParser=require('body-parser');
 const mongoose=require('mongoose');
 const app=express();
-mongoose.connect("mongodb+srv://admin-avishek:test123@cluster0.pdjq0.mongodb.net/todolistDB",{useNewUrlParser:true});
+mongoose.connect("",{useNewUrlParser:true});
 
 const itemsSchema={
         name:String
